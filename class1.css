@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-image: url(assets/images/things-to-do-in-the-maldives-from-the-air.png);
+    background-size: cover;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+.nav {
+    display: flex;
+    background-color: white;
+    height: 60px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 20px;
+}
+.nav ul {
+    display: flex;
+    flex-direction: row;
+}
+.nav ul li {
+    list-style: none;
+    padding-right: 70px;
+    padding-top: 20px;
+}
+.container {
+    background-color: white;
+    margin-top: 30px;
+    height: 150px;
+    margin-left: 65px;
+    margin-right: 65px;
+    display: flex;
+}
+.top {
+    margin-top: 50px;
+    margin-left: 50px;
+    color: white;
+}
+.c1, .c2, .c3 {
+    padding-right: 200px;
+    padding-top: 60px;
+}
+.c1 {
+    margin-left: 40px;
+}
+footer {
+    color: white;
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    margin-left: 35px;
+    text-decoration:dotted;
+}
+.main {
+    background-color: beige;
+    height: 900px;
+    margin-top: 25px;
+}
+.m1, .m2, .m3 {
+    margin-top: 50px;
+    margin-left: 50px;
+    display: flex;
+    flex-direction: row;
+    margin-right: 50px ;
+}
+.m1 img, .m2 img, .m3 img {
+    height: 250px;
+    width: 350px;
+}
+.m1-2, .m1-3, .m2-2, .m2-3 {
+    margin-left: 70px;
+}
+.m1-1, .m1-2, .m1-3 {
+    margin-top: 50px;
+}
+button {
+    color: white;
+    background-color: rgb(102, 102, 190);
+    border-radius: 15px;
+    width: 70px;
+}
+p {
+    justify-content: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+section {
+    display: flex;
+    flex-direction: row;
+    margin-top: 150px;
+    margin-left: 200px;
+    margin-bottom: 150px ;
+}
+.ht {
+    color: white;
+    
+}
+.ht h4 {
+    font-size: 40px;
+}
+.inbut {
+    margin-left: 140px;
+    text-align: justify;
+}
+.inbut input {
+    border-radius: 10px;
+    height: 20px;
+    outline: none;
+}
+.port {
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    margin-left: 110px;
+    margin-right: 110px;
+}
+#last {
+    height: 100px;
+    width: auto;
+}
+.p1 {
+    margin-left: 30px;
+}
+.p2, .p3, .p4 {
+    margin-right: 30px;
+    margin-top: 20px;
+}
+#ls {
+    margin-right: 100px;
+}
+header {
+    color: white;
+    background-color: skyblue;
+    margin-left: 110px;
+    margin-right: 110px;
+}
+#i {
+    height: 100px;
+    width: auto;
+}
+.p3 ul li {
+    color: black;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+#p {
+    margin-top: 10px;
+    text-align: justify;
+}
+ button:hover {
+    background-color: lightblue;
+ }
+ .nav ul li:hover {
+    color: lightblue;
+ }
